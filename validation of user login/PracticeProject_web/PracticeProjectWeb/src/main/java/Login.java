@@ -1,4 +1,4 @@
-package Validationuserlogin;
+
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
@@ -24,7 +24,7 @@ public class Login implements Servlet
 		
 		String username=request.getParameter("username");
 		String password=request.getParameter("password");
-		if(password.equals("Amaravathy123")&&username.equals("Amaravathy")) {
+		if(password.equals("uma1201")&& username.equals("umayal")) {
 			
 			
 			out.println("<h1>Dashboard</h1>");
